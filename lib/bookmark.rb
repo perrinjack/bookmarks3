@@ -7,6 +7,7 @@ class Bookmark
     connection = PG.connect(dbname: 'bookmark_manager')
     @urls = connection.exec('SELECT * FROM bookmarks') do |result|
       result.map { |row| row["url"]}
+   
     end
   end
 end
