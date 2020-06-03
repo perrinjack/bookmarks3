@@ -5,12 +5,11 @@ require './lib/bookmark'
 describe Bookmark do
   describe '.all' do
     it 'allows a user to view their bookmarks' do
-      connection = PG.connect(dbname: 'bookmark_manager_test')
-      connection.exec "INSERT INTO bookmarks VALUES(1,'www.twitter.com')"
+      setup_and_insert_data
       bookmarks = Bookmark.all
-
       expect(bookmarks).to include 'www.twitter.com'
-      
+      expect(bookmarks).to include 'www.makersacademy.com'
+      expect(bookmarks).to include 'www.facebook.com'
     end
   end
 end

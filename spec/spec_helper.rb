@@ -10,6 +10,7 @@ require 'rspec'
 require 'simplecov'
 require 'simplecov-console'
 require 'pg'
+require 'bookmark_test_helper'
 
 Capybara.app = BookmarkManager
 
