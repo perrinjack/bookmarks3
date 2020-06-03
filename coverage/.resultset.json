@@ -20,6 +20,20 @@
           null
         ]
       },
+      "/Users/nickbutler/Projects/bookmarks3/spec/features/new_bookmark_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/nickbutler/Projects/bookmarks3/spec/features/view_bookmark_spec.rb": {
         "lines": [
           null,
@@ -41,6 +55,6 @@
         ]
       }
     },
-    "timestamp": 1591194144
+    "timestamp": 1591196399
   }
 }

@@ -17,3 +17,8 @@ I would like to <Add the site's address and title to bookmark manager>
 ```
 [User Story Domain Model]()
 
+```
+As a users
+so I  can update my list
+I would like to add new bookmarks
+```
