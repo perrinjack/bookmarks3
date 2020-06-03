@@ -3,8 +3,9 @@ feature 'adding a new bookmark' do
     visit '/bookmarks'
 
     fill_in :url, with: 'www.google.co.uk'
+    fill_in :title, with: 'Google'
     click_button("Add")
-    expect(page).to have_content('www.google.co.uk')
+    expect(page).to have_content('Google')
 
   end
 end
