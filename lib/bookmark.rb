@@ -15,6 +15,8 @@ class Bookmark
       @titles = connection.exec('SELECT * FROM bookmarks') do |result|
         result.map { |row| row["title"]}
       end
+
+      
     end
   end
   def self.create(url, title)
